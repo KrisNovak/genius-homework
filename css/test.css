@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+display: flex;
+flex-direction: column;
+justify-content: center;;
+}
+
+.item {
+    flex-basis: 100px;
+    height: 100px;
+    background-color:chocolate;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+.item:nth-child(2) {
+    align-self: flex-end;
+    /* flex-shrink: 1; */
+    flex-basis: 50px;
+    height: 50px;
+}
+
+/* .item:last-child {
+    flex-basis: 80px;
+    height: 80px;
+} */
